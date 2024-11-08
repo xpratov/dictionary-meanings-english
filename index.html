@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/iconoir_book.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dictionary App</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./assets/iconoir_book.svg" alt="#">
+            <div>
+                <section>
+                    <span class="font-title">Sans Serif</span>
+                    <img class="fonting" src="./assets/font_mode.svg" alt="#">
+                </section>
+                <button class="dark-light">
+                    <span class="dark-circle1"></span>
+                    <span class="dark-circle2 hidden"></span>
+                </button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 10.449C0.998458 12.8283 1.80169 15.1383 3.27914 17.0033C4.75659 18.8683 6.82139 20.1788 9.13799 20.7218C11.4545 21.2647 13.8866 21.0082 16.039 19.994C18.1912 18.9797 19.9373 17.2673 20.9931 15.1352C11.5442 15.1352 6.85799 10.4479 6.85799 1C5.09842 1.87311 3.61767 3.22033 2.58266 4.88981C1.54765 6.5593 0.999502 8.48469 1 10.449Z" stroke="#757575" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="choose-font hidden">
+                <p>Sans Serif</p>
+                <p>Serif</p>
+                <p>Mono</p>
+            </div>
+        </header>
+        <div class="hero">
+            <div class="inputing">
+                <input type="text" placeholder="Typing any word...">
+                <img src="./assets/iconoir_search.svg" alt="#">
+            </div>
+            <div class="referencing">
+                <div>
+                    <h1>keyboard</h1>
+                    <p>/ˈkiːbɔːd/</p>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
+                    <circle opacity="0.25" cx="37.5" cy="37.5" r="37.5" fill="#A445ED"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M29 27V48L50 37.5L29 27Z" fill="#A445ED"/>
+                </svg>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
+                    <circle cx="37.5" cy="37.5" r="37.5" fill="#A445ED"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M29 27V48L50 37.5L29 27Z" fill="white"/>
+                </svg> -->
+            </div>
+        </div>
+        <main>
+            <div class="be_noun">
+                <h4>noun <span> </span></h4>
+                <span>Meaning</span>
+                <ul></ul>
+                <section>
+                    <span>Synonyms</span>
+                </section>
+            </div>
+            <div class="be_verb">
+                <h4>verb <span> </span></h4>
+                <span>Meaning</span>
+                <ul></ul>
+                <section></section>
+            </div>
+        </main>
+        <footer>
+            <section>
+                <p>Source </p>
+                <img src="./assets/tabler_external-link.svg" alt="#">
+            </section>
+        </footer>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
